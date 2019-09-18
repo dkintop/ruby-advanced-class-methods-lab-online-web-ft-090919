@@ -36,8 +36,8 @@ class Song
   
   def Song.find_by_name(song_name)
   
-    self.all.each do |song_instance|
-      if song_instance.name == song_name
+    self.all.detect do |song_instance|
+       song_instance.name == song_name
         song_instance
         binding.pry
       end 
