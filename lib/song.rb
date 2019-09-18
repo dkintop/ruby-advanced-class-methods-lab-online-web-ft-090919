@@ -64,7 +64,7 @@ class Song
    new_instance = Song.new
    new_instance.name = song_name 
    new_instance.artist_name = artist
-    
+    new_instance
    
   end
 
