@@ -61,7 +61,7 @@ class Song
    split_array = artist_and_file.split("-")  
    song_name = split_array[1].chomp(".mp3").strip
    artist = split_array[0].strip
-   Song.new_by_name(song_name)
+   self.new
     
    binding.pry
   end
