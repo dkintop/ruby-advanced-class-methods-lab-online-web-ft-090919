@@ -64,5 +64,5 @@ class Song
 
 
 end
-song.new_from_filename()
+Song.new_from_filename("Taylor Swift - Blank Space.mp3")
 
