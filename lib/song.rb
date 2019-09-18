@@ -46,11 +46,13 @@ class Song
     if Song.find_by_name(song_name_string)
       Song.find_by_name(song_name_string)
     else
-      
       Song.create_by_name(song_name_string)
-   
     end 
-     
+  end
+  
+  def Song.alphabetical
+  
+    self.all.sort_by
   
   end
 
