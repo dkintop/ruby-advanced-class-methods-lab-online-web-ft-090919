@@ -60,7 +60,7 @@ class Song
     
    split_array = artist_and_file.split("-")  
    song_name = split_array[1].chomp(".mp3").strip
-   artist = split_array[0].
+   artist = split_array[0].strip
    binding.pry
   end
 
