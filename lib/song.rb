@@ -59,10 +59,10 @@ class Song
   def Song.new_from_filename(artist_and_file)
     
    artis_and_file.split("-")  
-   binding.pry 
+   
   end
 
 
 end
-
+song.new_from_filename()
 
