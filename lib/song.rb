@@ -38,7 +38,7 @@ class Song
   
     self.all.detect do |song_instance|
        song_instance.name == song_name
-        song_instance
+        
         binding.pry
       end 
     end
