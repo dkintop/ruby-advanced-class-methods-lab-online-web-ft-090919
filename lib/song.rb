@@ -59,13 +59,14 @@ class Song
   def Song.new_from_filename(artist_and_file)
     
    split_array = artist_and_file.split("-")  
-   song_name = split_array[1].chomp(".mp3").strip 
+   song_name = split_array[1].chomp(".mp3").strip
+   artist = split_array[0]
    binding.pry
   end
 
 
 end
 
-Song.new_from_filename("Taylor Swift - Blank Space.mp3")
+
 
 
