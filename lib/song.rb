@@ -43,6 +43,14 @@ class Song
   
   def Song.find_or_create_by_name(song_name_string)
   
+    if Song.find_by_name(song_name_string)
+      
+      song_instance
+    
+    end 
+    
+  
+  end
 
 
 end
