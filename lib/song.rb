@@ -61,7 +61,9 @@ class Song
    split_array = artist_and_file.split("-")  
    song_name = split_array[1].chomp(".mp3").strip
    artist = split_array[0].strip
-   Song.new
+   new_instance = Song.new
+   new_instance.name = song_name 
+   new_instance.artist = artist
     
    binding.pry
   end
