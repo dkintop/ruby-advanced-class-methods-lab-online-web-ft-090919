@@ -54,6 +54,8 @@ class Song
   
     self.all.sort_by do |x|
       x.name
+    binding.pry
+    end 
   
   end
 
