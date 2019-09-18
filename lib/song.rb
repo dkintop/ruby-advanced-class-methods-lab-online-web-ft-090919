@@ -67,14 +67,17 @@ class Song
   end
    
   def Song.create_from_filename(filename)
-     song = Song.new_from_filename(filename)
+     song_instance = Song.new_from_filename(filename)
      save
   end 
-
+  
+  def Song.destroy_all
+    
+    self.all = []
+    
+  end 
 
 end
 
-Song.all
-binding.pry
 
 
