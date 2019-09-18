@@ -66,16 +66,14 @@ class Song
     new_instance
   end
    
-   def Song.create_from_filename(filename)
-     
+  def Song.create_from_filename(filename)
      song = Song.new_from_filename(filename)
      save
-     
-   end 
+  end 
 
 
 end
 
-
+Song.all
 
 
