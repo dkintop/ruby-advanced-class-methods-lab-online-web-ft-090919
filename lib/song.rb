@@ -33,7 +33,11 @@ class Song
   
   end
   
-  #you ar on the song.find_by_name method
+  def Song.find_by_name(song_name)
+  
+  
+  
+  end 
   
 
 
