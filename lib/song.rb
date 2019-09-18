@@ -66,4 +66,6 @@ class Song
 
 end
 
+Song.new_from_filename()
+
 
