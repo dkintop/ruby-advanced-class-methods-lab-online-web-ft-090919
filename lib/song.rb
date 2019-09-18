@@ -46,7 +46,7 @@ class Song
     if Song.find_by_name(song_name_string)
       
       song_instance
-    
+    binding.pry
     end 
     
   
