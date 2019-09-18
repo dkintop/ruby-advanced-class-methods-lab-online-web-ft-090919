@@ -51,11 +51,9 @@ class Song
   end
   
   def Song.alphabetical
-  
     self.all.sort_by do |song_instance|
       song_instance.name
     end 
-  
   end
 
 
