@@ -48,7 +48,7 @@ class Song
       song_instance
    
     end 
-     binding.pry
+     
   
   end
 
