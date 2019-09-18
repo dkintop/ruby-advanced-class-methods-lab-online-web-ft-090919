@@ -1,3 +1,4 @@
+require 'pry'
 class Song
   attr_accessor :name, :artist_name
   @@all = []
@@ -38,6 +39,7 @@ class Song
     self.all.each do |song_instance|
       if song_instance.name == song_name
         song_instance
+        binding.pry
       end 
     end
   
