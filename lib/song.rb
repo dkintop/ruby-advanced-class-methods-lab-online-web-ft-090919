@@ -62,7 +62,7 @@ class Song
    song_name = split_array[1].chomp(".mp3").strip
    artist = split_array[0].strip
    Song.new_by_name(song_name)
-   Song.artist_name = artist 
+   self.artist_name = artist 
    binding.pry
   end
 
