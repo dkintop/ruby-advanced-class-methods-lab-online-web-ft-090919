@@ -56,17 +56,22 @@ class Song
     end 
   end
   
-  def Song.new_from_filename(artist_and_file)
-    
-   split_array = artist_and_file.split("-")  
-   song_name = split_array[1].chomp(".mp3").strip
-   artist = split_array[0].strip
-   new_instance = Song.new
-   new_instance.name = song_name 
-   new_instance.artist_name = artist
+  def Song.new_from_filename(filename)
+    split_array = filename.split("-")  
+    song_name = split_array[1].chomp(".mp3").strip
+    artist = split_array[0].strip
+    new_instance = Song.new
+    new_instance.name = song_name 
+    new_instance.artist_name = artist
     new_instance
-   
   end
+   
+   def Song.create_from_filename(filename)
+     
+     song = Song.new_from_filename(filename)
+     save
+     
+   end 
 
 
 end
