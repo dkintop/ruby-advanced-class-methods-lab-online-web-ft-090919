@@ -58,7 +58,7 @@ class Song
   
   def Song.new_from_filename(artist_and_file)
     
-  artist_split = artis_and_file.split("-")  
+   artis_and_file.split("-")  
    binding.pry 
   end
 
