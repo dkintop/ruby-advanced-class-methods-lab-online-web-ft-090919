@@ -73,7 +73,7 @@ class Song
   
   def Song.destroy_all
     
-    self.all = []
+    Song.all = []
     
   end 
 
