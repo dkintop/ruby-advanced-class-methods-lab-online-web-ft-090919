@@ -71,11 +71,7 @@ class Song
      save
   end 
   
-  def Song.destroy_all
-    
-    Song.all = []
-    
-  end 
+  
 
 end
 
