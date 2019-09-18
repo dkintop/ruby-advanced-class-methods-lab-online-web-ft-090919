@@ -58,8 +58,8 @@ class Song
   
   def Song.new_from_filename(artist_and_file)
     
-   artist_and_file.split("-")  
-   
+   split_array = artist_and_file.split("-")  
+   song_name = split_array. 
   end
 
 
