@@ -61,7 +61,7 @@ class Song
   artist_split = artis_and_file.split("-")  
    
   end
-
+binding.pry 
 
 end
 
