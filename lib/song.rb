@@ -71,7 +71,9 @@ class Song
      song_instance.save
   end 
   
- 
+  def Song.destroy_all 
+    Song.all.clear
+  end 
 
 end
 
