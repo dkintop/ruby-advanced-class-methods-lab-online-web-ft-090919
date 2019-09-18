@@ -75,5 +75,6 @@ class Song
 end
 
 Song.all
+binding.pry
 
 
