@@ -63,7 +63,7 @@ class Song
    artist = split_array[0].strip
    new_instance = Song.new
    new_instance.name = song_name 
-   new_instance.artist = artist
+   new_instance.artist_name = artist
     
    
   end
