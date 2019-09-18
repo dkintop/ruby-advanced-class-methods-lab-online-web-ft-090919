@@ -65,7 +65,7 @@ class Song
    new_instance.name = song_name 
    new_instance.artist = artist
     
-   binding.pry
+   
   end
 
 
